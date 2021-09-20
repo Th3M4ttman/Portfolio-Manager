@@ -1,0 +1,374 @@
+{
+    "Projects": {
+        "Pseudorandom Number Generator": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a PRNG to create semi random numbers"
+        },
+        "Graph Coloring": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that can colour the verticies of a given graph such that 2 colours do not touch"
+        },
+        "A* Search": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that implements A* Searching"
+        },
+        "B* Search": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that implements B* Searching"
+        },
+        "Depth First Search": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that implements depth first searching"
+        },
+        "Bredth First Search": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that implements bredth first searching"
+        },
+        "Brute Force Search": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that implements brute force searching"
+        },
+        "Trigram Search": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function to search for text when the exact syntax or spelling of the target object is not precisely known"
+        },
+        "Uniform Binary Search": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that implements uniform binary searching"
+        },
+        "Fisher-Yates Shuffle": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that implements the Fisher-Yates shuffle to shuffle a finite set"
+        },
+        "Shortest Path": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that calculates the shoryest path between 2 given graph vectors"
+        },
+        "Longest Path": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that finds a simple path of maximum length in a given graph"
+        },
+        "String Metrics": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that computes a similarity or dissimilarity (distance) score between two pairs of text strings"
+        },
+        "Bubble Sort": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that for each pair of indices, swaps the items if out of order"
+        },
+        "Quick Sort": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that divides a list into two, with all items on the first list coming before all items on the second list.; then sorts the two lists."
+        },
+        "Insertion Sort": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that determines where the current item belongs in the list of sorted ones, and inserts it there"
+        },
+        "Tree Sort": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that builds a binary tree, then traverse it to create sorted list"
+        },
+        "Merge Sort": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that sorts the first and second half of the list separately, then mergesthe sorted lists"
+        },
+        "Selection Sort": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that picks the smallest of the remaining elements, and adds it to the end of the sorted list"
+        },
+        "Heap Sort": {
+            "category": "Common Algorithms",
+            "subcategory": "/Combinatorial/",
+            "description": "Develop a function that converts the list into a heap, and keeps removing the largest element from the heap and adding it to the end of the list"
+        },
+        "Day of the week": {
+            "category": "Common Algorithms",
+            "subcategory": "/Computational Science/",
+            "description": "Develop a function that uses the doomsday rule to calculate what day a given date falls upon"
+        },
+        "Easter": {
+            "category": "Common Algorithms",
+            "subcategory": "/Computational Science/",
+            "description": "Develop a function that calculates the date of easter for the given year"
+        },
+        "Geohash": {
+            "category": "Common Algorithms",
+            "subcategory": "/Computational Science/",
+            "description": "Develop a function that implements Geohash: a public domain algorithm that encodes a decimal latitude/longitude pair as a hash string"
+        },
+        "Word Stemming": {
+            "category": "Common Algorithms",
+            "subcategory": "/Computational Science/",
+            "description": "Develop a function that implements a Stemming algorithm: a method of reducing words to their stem, base, or root form"
+        },
+        "Asymmetric Encryption": {
+            "category": "Common Algorithms",
+            "subcategory": "/Cryptography/",
+            "description": "Develop a program that implements public key encryption"
+        },
+        "Digital Signiture": {
+            "category": "Common Algorithms",
+            "subcategory": "/Cryptography/",
+            "description": "Develop a program that implements public key encryption to create digital signitures"
+        },
+        "Hash Function": {
+            "category": "Common Algorithms",
+            "subcategory": "/Cryptography/",
+            "description": "Develop a function that Hashes a string without collisions"
+        },
+        "Diffie-Hellman": {
+            "category": "Common Algorithms",
+            "subcategory": "/Cryptography/",
+            "description": "Develop a program that securely exchanges keys using Diffie-Hellman"
+        },
+        "Symmetric Encryption": {
+            "category": "Common Algorithms",
+            "subcategory": "/Cryptography/",
+            "description": "Develop a program that implements private key encryption"
+        },
+        "Key Derivation": {
+            "category": "Common Algorithms",
+            "subcategory": "/Cryptography/",
+            "description": " Develop a key derivation function (KDF): a cryptographic hash function that derives one or more secret keys from a secret value such as a main key, a password, or a passphrase using a pseudorandom function."
+        },
+        "Entropy Encoding": {
+            "category": "Common Algorithms",
+            "subcategory": "/Compression/Lossless/",
+            "description": " Develop a program that uses lossless entropy encoding to compress the input."
+        },
+        "Delta Encoding": {
+            "category": "Common Algorithms",
+            "subcategory": "/Compression/",
+            "description": " Develop a program that implements delta encoding to calculate file differences."
+        },
+        "Fractal Compression": {
+            "category": "Common Algorithms",
+            "subcategory": "/Compression/Lossy/",
+            "description": " Develop a program that implements fractal compression to compress an input image"
+        },
+        "Run Length Encoding": {
+            "category": "Common Algorithms",
+            "subcategory": "/Compression/Lossless/",
+            "description": " Develop a program that implements run length encoding to compress a file"
+        },
+        "OpenCTM": {
+            "category": "Common Algorithms",
+            "subcategory": "/Compression/Lossless/",
+            "description": " Develop a program that implements the OpenCompressedTriangleMesh format to compress a 3D mesh"
+        },
+        "DCT": {
+            "category": "Common Algorithms",
+            "subcategory": "/Compression/Lossy/",
+            "description": " Develop a program that implements the discreet cosine transform to compress images and video"
+        },
+        "Dithering": {
+            "category": "Common Algorithms",
+            "subcategory": "/Image Manipulation/",
+            "description": " Develop a program that implements dithering"
+        },
+        "Canny edge detector": {
+            "category": "Common Algorithms",
+            "subcategory": "/Image Manipulation/Computer Vision/",
+            "description": " Develop a program that implements the Canny edge detector aglorithm to detect edges in a given image"
+        },
+        "Winged Edge": {
+            "category": "Common Data Structures",
+            "subcategory": "/Geometric/",
+            "description": " Develop a program that implements a winged edge class that reperesents a polygon"
+        },
+        "Quad Edge": {
+            "category": "Common Data Structures",
+            "subcategory": "/Geometric/",
+            "description": " Develop a program that implements a quad edge class that reperesents a polygon"
+        },
+        "Undirected Graph": {
+            "category": "Common Data Structures",
+            "subcategory": "/Graph/",
+            "description": " Develop a program that implements a graph class that reperesents a set of verticies connected by edges"
+        },
+        "Directed Graph": {
+            "category": "Common Data Structures",
+            "subcategory": "/Graph/",
+            "description": " Develop a program that implements a directed graph class that reperesents a set of verticies connected by arcs of a set direction"
+        },
+        "Hash List": {
+            "category": "Common Data Structures",
+            "subcategory": "/Hash Based/",
+            "description": " Develop a program that implements a hash list class"
+        },
+        "Hash Table": {
+            "category": "Common Data Structures",
+            "subcategory": "/Hash Based/",
+            "description": " Develop a program that implements a hash table class"
+        },
+        "Hash Tree": {
+            "category": "Common Data Structures",
+            "subcategory": "/Hash Based/",
+            "description": " Develop a program that implements a hash tree class"
+        },
+        "Linked List": {
+            "category": "Common Data Structures",
+            "subcategory": "/Linear/",
+            "description": " Develop a program that implements a linked list class"
+        },
+        "Matrix": {
+            "category": "Common Data Structures",
+            "subcategory": "/Linear/",
+            "description": " Develop a program that implements a Matrix class"
+        },
+        "Queue": {
+            "category": "Common Data Structures",
+            "subcategory": "/Linear/",
+            "description": " Develop a program that implements a Queue class"
+        },
+        "Stack": {
+            "category": "Common Data Structures",
+            "subcategory": "/Linear/",
+            "description": " Develop a program that implements a Stack class"
+        },
+        "Tree": {
+            "category": "Common Data Structures",
+            "subcategory": "/Trees/",
+            "description": " Develop a program that implements a Tree class"
+        },
+        "Binary Tree": {
+            "category": "Common Data Structures",
+            "subcategory": "/Trees/",
+            "description": " Develop a program that implements a BinaryTree class"
+        },
+        "Binary Search Tree": {
+            "category": "Common Data Structures",
+            "subcategory": "/Trees/",
+            "description": " Develop a program that implements a BinarySearchTree class"
+        },
+        "Heap": {
+            "category": "Common Data Structures",
+            "subcategory": "/Trees/",
+            "description": " Develop a program that implements a Heap class"
+        },
+        "Treap": {
+            "category": "Common Data Structures",
+            "subcategory": "/Trees/",
+            "description": " Develop a program that implements a Treap class"
+        },
+        "Madlibs": {
+            "category": "Games",
+            "subcategory": "/Singleplayer/",
+            "description": " Develop an implementation of madlibs. the program will ask for adjectives, verbs and nouns and it will use the to complete a madlib"
+        },
+        "Minesweeper": {
+            "category": "Games",
+            "subcategory": "/Singleplayer/",
+            "description": " Develop an implementation of the game minesweeper"
+        },
+        "Snake": {
+            "category": "Games",
+            "subcategory": "/Singleplayer/",
+            "description": " Develop an implementation of the game Snake"
+        },
+        "Space Invaders": {
+            "category": "Games",
+            "subcategory": "/Singleplayer/",
+            "description": " Develop an implementation of the game Space Invaders"
+        },
+        "Tetris": {
+            "category": "Games",
+            "subcategory": "/Singleplayer/",
+            "description": " Develop an implementation of the game Tetris"
+        },
+        "Connect Four": {
+            "category": "Games",
+            "subcategory": "/Multiplayer/",
+            "description": " Develop an implementation of the game Connect Four with an AI/Human opponent"
+        },
+        "Guess The Number": {
+            "category": "Games",
+            "subcategory": "/Multiplayer/",
+            "description": " Develop an implementation of the game Guess The Number with an AI/Human opponent"
+        },
+        "Hangman": {
+            "category": "Games",
+            "subcategory": "/Multiplayer/",
+            "description": " Develop an implementation of the game Hangman with an AI/Human opponent"
+        },
+        "Pong": {
+            "category": "Games",
+            "subcategory": "/Multiplayer/",
+            "description": " Develop an implementation of the game Connect Four with an AI/Human opponent"
+        },
+        "Rock Paper Scissors": {
+            "category": "Games",
+            "subcategory": "/Multiplayer/",
+            "description": " Develop an implementation of the game Rock Paper Scissors with an AI/Human opponent"
+        },
+        "TicTacToe": {
+            "category": "Games",
+            "subcategory": "/Multiplayer/",
+            "description": " Develop an implementation of the game TicTacToe with an AI/Human opponent. with a difficulty setting for the ai ranging from 0 -random moves to x - Impossible to win (minimax algorithm)"
+        },
+        "Chat Client": {
+            "category": "Networking",
+            "subcategory": "/",
+            "description": " Develop a peer to peer chat client"
+        },
+        "Countdown Timer": {
+            "category": "Software",
+            "subcategory": "/",
+            "description": " Develop a program that counts down to a time/date"
+        },
+        "Discord Bot": {
+            "category": "Software",
+            "subcategory": "/",
+            "description": " Develop a discord bot that responds to commands"
+        },
+        "Markov Chain Composer": {
+            "category": "Software",
+            "subcategory": "/",
+            "description": " Develop a program that uses Markov Chains to compose text"
+        },
+        "Password Generator": {
+            "category": "Software",
+            "subcategory": "/",
+            "description": " Develop a program that creates a cryptographically secure password"
+        },
+        "Cartoon Image Filter": {
+            "category": "Software",
+            "subcategory": "/",
+            "description": " Develop a program that applies a cartoon filter to an image"
+        },
+        "QR Encode-Decode": {
+            "category": "Software",
+            "subcategory": "/",
+            "description": " Develop a program that encodes and decodes QR codes."
+        },
+        "Weather": {
+            "category": "Software",
+            "subcategory": "/",
+            "description": " Develop a program that scrapes weather data from the web and displays it."
+        },
+        "99 Bottles": {
+            "category": "Software",
+            "subcategory": "/",
+            "description": " Develop a program that efficiently prints out the poem 99 bottles using loops."
+        }
+    }
+}

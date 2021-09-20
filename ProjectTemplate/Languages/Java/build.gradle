@@ -1,0 +1,77 @@
+plugins {
+    id 'java'
+    // Plugin which can update Gradle dependencies, use help/useLatestVersions
+    id 'se.patrikerdes.use-latest-versions' version '0.2.15'
+    id 'com.github.ben-manes.versions' version '0.36.0'
+    // Test coverage
+    id 'jacoco'
+
+    // Upload jacoco coverage reports to coveralls
+    id 'com.github.kt3k.coveralls' version '2.10.2'
+
+    // https://openjfx.io/openjfx-docs/#gradle
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+}
+
+description = """ 
+Gradle build file.
+This uses the gradle wrapper, so when running (the first time) use 'gradlew test' so then it 
+downloads the right gradle automatically.
+"""
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+
+    // Needed for JavaFX tests.
+    testImplementation 'org.testfx:testfx-core:4.0.16-alpha'
+    testImplementation "org.testfx:testfx-junit:4.0.15-alpha"
+    // Only needed for headless testing.
+//    testCompile "org.testfx:openjfx-monocle:8u76-b04" // jdk-9+181 for Java 9
+
+}
+
+sourceSets {
+    main.java.srcDirs += 'src'
+    main.resources.srcDirs += 'src'
+    test.java.srcDirs += 'test'
+    test.resources.srcDirs += 'test'
+}
+
+// Java target version
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+javafx {
+    version = "14"
+    modules = [ 'javafx.controls' ]
+}
+
+test {
+    // Enable JUnit 5 (Gradle 4.6+).
+    useJUnitPlatform()
+
+    // Always run tests, even when nothing changed.
+    dependsOn 'cleanTest'
+
+    // Show test results.
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
+
+// Test coverage reporting
+jacocoTestReport {
+    // Enable xml for coveralls.
+    reports {
+        html.required.set(true)
+        xml.required.set(true)
+        xml.outputLocation.set(file("${buildDir}/reports/jacoco/test/jacocoTestReport.xml"))
+    }
+}
